@@ -162,6 +162,7 @@ A university is in conatct with several other oragnisations like the state, othe
 **Student**
 
 </div>
+
 The students might will be the most frequent users of this application. This kind of users interacts most of the times by inserting information or looking something up.
 
 <div class="formalpara-title">
@@ -169,6 +170,7 @@ The students might will be the most frequent users of this application. This kin
 **Accounting Software**
 
 </div>
+
 The currently used application for supporting the accounting process will be further used. Neccessary information will be provided by the university managment tool.
 
 <div class="formalpara-title">
@@ -176,6 +178,7 @@ The currently used application for supporting the accounting process will be fur
 **Moodle**
 
 </div>
+
 Moodle is a crucial part when preparing for and working in the lectures. Also the grading is handled here. Also moodle need certain personal data of the students which is provided by the university application tool.
 
 <div class="formalpara-title">
@@ -183,6 +186,7 @@ Moodle is a crucial part when preparing for and working in the lectures. Also th
 **Austia Student Database**
 
 </div>
+
 University are obliged by law to provide ceratin information of the students and the falculty.
 
 <div class="formalpara-title">
@@ -190,6 +194,7 @@ University are obliged by law to provide ceratin information of the students and
 **Webmail**
 
 </div>
+
 The university already has a tool for providing the students as well as the employees with an email adress. This application will be further used and will be get needed personal data.
 
 ## Technical Context
