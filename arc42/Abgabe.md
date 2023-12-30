@@ -187,7 +187,7 @@ Moodle is a crucial part when preparing for and working in the lectures. Also th
 
 </div>
 
-University are obliged by law to provide ceratin information of the students and the falculty.
+Universities are obliged by law to provide ceratin information of the students and the falculty.
 
 <div class="formalpara-title">
 
@@ -242,47 +242,39 @@ and input/output.
 
 <div class="formalpara-title">
 
-**Contents**
+**(easy) Deployment**
 
 </div>
 
-A short summary and explanation of the fundamental decisions and
-solution strategies, that shape system architecture. It includes
-
--   technology decisions
-
--   decisions about the top-level decomposition of the system, e.g.
-    usage of an architectural pattern or design pattern
-
--   decisions on how to achieve key quality goals
-
--   relevant organizational decisions, e.g. selecting a development
-    process or delegating certain tasks to third parties.
+An easy deployment is crcial for this application, because there is just a short timeframe for setting it up and going life during summer. To succesfully establish this SOA would be the prefered approach.
 
 <div class="formalpara-title">
 
-**Motivation**
+**Adaptive (regarding user feedback)**
 
 </div>
 
-These decisions form the cornerstones for your architecture. They are
-the foundation for many other detailed decisions or implementation
-rules.
+Demand an priorities can change over time, especially when working with software. Due to that, the system has to be able to be adapted. A system based on a SOA or MS approach would gurante this.
 
 <div class="formalpara-title">
 
-**Form**
+**low maintenance cost**
 
 </div>
 
-Keep the explanations of such key decisions short.
+When the university management tool is set up, it should take a minimum of time and cost to keep it running. This could be realised by an SOA or Monolithic approach.
 
-Motivate what was decided and why it was decided that way, based upon
-problem statement, quality goals and key constraints. Refer to details
-in the following sections.
+Demand an priorities can change over time, especially when working with software. Due to that, the system has to be able to be adapted. A system based on a SOA or MS approach would gurante this.
 
-See [Solution Strategy](https://docs.arc42.org/section-4/) in the arc42
-documentation.
+<div class="formalpara-title">
+
+**Conclusion**
+
+</div>
+
+Keeping the mentioned goals in mind an SOA architectual approach seems as the most promising one. The combination of being able to adapt and improving the system as well as low overhead seems like a perfect fit for this project.
+
+
 
 <div style="page-break-after: always;"></div>
 
