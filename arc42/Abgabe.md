@@ -55,6 +55,7 @@ The main stakeholders for this projekt (with their most valued expectation/s) ar
 <div class="formalpara-title">
  
  **Dashboard with relevant information**
+ 
  </div>
 To make strategic decisions, information and data is crucial. Therefore, the university management application needs to make those not just available, but also displays them in an adequate manner. 
 
@@ -62,6 +63,7 @@ To make strategic decisions, information and data is crucial. Therefore, the uni
 <div class="formalpara-title">
  
 **Course and curriculum management**
+
 </div>
 The organisation of the courses and the curriculum represent two crucial parts of day to day life in an university. The software need to support the employees here and automate as much process steps as possible.
 
@@ -69,6 +71,7 @@ The organisation of the courses and the curriculum represent two crucial parts o
 <div class="formalpara-title">
  
 **User authentification**
+
 </div>
 The university has to handle the personal data of the students as well as of employees. To make sure, that noone can access someoneelses account and data user authentification need to be implemented.
 
@@ -76,6 +79,7 @@ The university has to handle the personal data of the students as well as of emp
 <div class="formalpara-title">
  
 **Billing and payment management**
+
 </div>
 This application supports the falculty and students whenever they have to interact with eachother. Therefore also a billing and payment management system will be implemented. 
 
@@ -83,6 +87,7 @@ This application supports the falculty and students whenever they have to intera
 <div class="formalpara-title">
  
 **Reports and Analytics**
+
 </div>
 Defined reports will be generated periodically. Also certain tools for further analysing the collected data will be accessable, to make (for exmaple) additional dashbords possible.
 
@@ -91,6 +96,7 @@ Defined reports will be generated periodically. Also certain tools for further a
 <div class="formalpara-title">
 
 **Usability**
+
 </div>
 The main goal of this applications is making the day to day life of students as well as employees easier. Therefore it must not be necessary to have a training to be able to work with the university management tool. Everytime person who has to fullfill a task which involes this application should be able to it without any detailed instructions.
 
@@ -98,6 +104,7 @@ The main goal of this applications is making the day to day life of students as 
 <div class="formalpara-title">
 
 **Correctness**
+
 </div>
 
 This tool works with personal data of many individuals. Therefore it is required by law to handle those information carefully. However, also data like grades, dates of tests as well as timetables are crucial for day to day life at a university and needs to be accessible and correct at all times.
@@ -106,6 +113,7 @@ This tool works with personal data of many individuals. Therefore it is required
 <div class="formalpara-title">
 
 **Interoperability**
+
 </div>
 
 A university is in conatct with several other oragnisations like the state, other universties and so on. This partnerships often include some type of exchange of data. To support this process and also make the oragnisation capeable of connecting with further organisations interoperability has a central position in this project.
@@ -145,30 +153,35 @@ A university is in conatct with several other oragnisations like the state, othe
 <div class="formalpara-title">
 
 **Student**
+
 </div>
 The students might will be the most frequent users of this application. This kind of users interacts most of the times by inserting information or looking something up.
 
 <div class="formalpara-title">
 
 **Accounting Software**
+
 </div>
 The currently used application for supporting the accounting process will be further used. Neccessary information will be provided by the university managment tool.
 
 <div class="formalpara-title">
 
 **Moodle**
+
 </div>
 Moodle is a crucial part when preparing for and working in the lectures. Also the grading is handled here. Also moodle need certain personal data of the students which is provided by the university application tool.
 
 <div class="formalpara-title">
 
 **Austia Student Database**
+
 </div>
 University are obliged by law to provide ceratin information of the students and the falculty.
 
 <div class="formalpara-title">
 
 **Webmail**
+
 </div>
 The university already has a tool for providing the students as well as the employees with an email adress. This application will be further used and will be get needed personal data.
 
