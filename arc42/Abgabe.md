@@ -55,9 +55,7 @@ The main stakeholders for this projekt (with their most valued expectation/s) ar
 
 ## Requirements Overview
 
-<div class="formalpara-title">
- Dashboard with relevant information **
-</div>
+ **Dashboard with relevant information**
 To make strategic decisions, information and data is crucial. Therefore, the university management application needs to make those not just available, but also displays them in an adequate manner. 
 
 
