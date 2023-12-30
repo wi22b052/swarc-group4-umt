@@ -116,10 +116,10 @@ A university is in conatct with several other oragnisations like the state, othe
 
 | Role/Name   | Contact        | Expectations       |
 |-------------|----------------|--------------------|
-| *Senior Lecturer/Jane Doe* | *j.doe@uni.at* | *\Efficiency; Ease the workload* |
-| *Student Rep./ Emily Chen* | *e.chen@uni.at* | *\Proper User Experience; Ease the communication; Data protection* |
-| *Financial Officer/Sarah Johnson* | *\s.johnson@uni.at* | *\Create revenue of subscription fees* |
-| *Chief Information Officer/Michael Lee* | *\m.lee@uni.at* | *\Ease the protection of student and lecturer data* |
+| *Senior Lecturer/Jane Doe* | *j.doe@uni.at* | *Efficiency; Ease the workload* |
+| *Student Rep./ Emily Chen* | *e.chen@uni.at* | *Proper User Experience; Ease the communication; Data protection* |
+| *Financial Officer/Sarah Johnson* | *s.johnson@uni.at* | *Create revenue of subscription fees* |
+| *Chief Information Officer/Michael Lee* | *m.lee@uni.at* | *Ease the protection of student and lecturer data* |
 
 <div style="page-break-after: always;"></div>
 
@@ -127,38 +127,13 @@ A university is in conatct with several other oragnisations like the state, othe
 
 <div class="formalpara-title">
 
-**Contents**
-
-</div>
-
-Any requirement that constraints software architects in their freedom of
-design and implementation decisions or decision about the development
-process. These constraints sometimes go beyond individual systems and
-are valid for whole organizations and companies.
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-Architects should know exactly where they are free in their design
-decisions and where they must adhere to constraints. Constraints must
-always be dealt with; they may be negotiable, though.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Simple tables of constraints with explanations. If needed you can
-subdivide them into technical constraints, organizational and political
-constraints and conventions (e.g. programming or versioning guidelines,
-documentation or naming conventions)
-
-See [Architecture Constraints](https://docs.arc42.org/section-2/) in the
-arc42 documentation.
+| Constraints   | Background and/or motivation  |
+|-------------|----------------|
+| *Programming Language* | *Developers can only code in Java and JavaScript* |
+| *On-Premise Server* | *The University mandates that we shall used an On-Premise solution, not a Cloud-Solution* |
+| *DSGVO* | *Data must be encrypted and stored in Europe* |
+| *Cost* | *University has a very limited budget and fixated -> less flexibility.* |
+| *Web-Application* | *The whole application is hosted in the Web* |
 
 <div style="page-break-after: always;"></div>
 
