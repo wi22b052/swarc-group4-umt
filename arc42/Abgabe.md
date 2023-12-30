@@ -104,6 +104,7 @@ Defined reports will be generated periodically. Also certain tools for further a
 **Usability**
 
 </div>
+
 The main goal of this applications is making the day to day life of students as well as employees easier. Therefore it must not be necessary to have a training to be able to work with the university management tool. Everytime person who has to fullfill a task which involes this application should be able to it without any detailed instructions.
 
 
