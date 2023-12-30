@@ -199,42 +199,12 @@ The university already has a tool for providing the students as well as the empl
 
 ## Technical Context
 
-<div class="formalpara-title">
+![image](https://github.com/wi22b052/swarc-group4-umt/assets/131394605/ea3c0699-94a4-4e97-b804-cbd875fbd02a)
 
-**Contents**
+There are three types of users, which interact with the system. Students and lectores each manage their own data and deal with the course management as well as an admin. The course management plays a crucial part in the system, by accpeting or defining students, lecture and the necessary rooms for a course. Also attendance and grades management (which are important for the reporting) get information from the curse management.  
 
-</div>
-
-Technical interfaces (channels and transmission media) linking your
-system to its environment. In addition a mapping of domain specific
-input/output to the channels, i.e. an explanation which I/O uses which
-channel.
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-Many stakeholders make architectural decision based on the technical
-interfaces between the system and its context. Especially infrastructure
-or hardware designers decide these technical interfaces.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-E.g. UML deployment diagram describing channels to neighboring systems,
-together with a mapping table showing the relationships between channels
-and input/output.
-
-**\<Diagram or Table>**
-
-**\<optionally: Explanation of technical interfaces>**
-
-**\<Mapping Input/Output to Channels>**
+![image](https://github.com/wi22b052/swarc-group4-umt/assets/131394605/6b5bc196-e683-481e-bd8d-2a85eee1ab09)
+As already mentioned is the admin crucial for creating a course with all its involved people and necessary facilities. Students and lectores are both needed for an exam, where later a grade is set and further provided to grades management. Also of course, it is important to track the attendance of a course and further transfer this data.
 
 <div style="page-break-after: always;"></div>
 
