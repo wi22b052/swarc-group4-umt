@@ -61,10 +61,8 @@ The main stakeholders for this projekt (with their most valued expectation/s) ar
 
 </div>
 
-Short description of the functional requirements, driving forces,
-extract (or abstract) of requirements. Link to (hopefully existing)
-requirements documents (with version number and information where to
-find it).
+*Dashboard with relevant information*
+
 
 <div class="formalpara-title">
 
