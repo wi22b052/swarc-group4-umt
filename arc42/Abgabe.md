@@ -40,8 +40,6 @@ To make this possible important features are:
 -   Billing and payment management
 -   Reports and Analytics
 
-FUNCTIONAL REQUIRENMNETS???????????????????????????
-
 Quality goals which influence architectural decisions:
 -   Usability (Easy access and usage; No training required)
 -   Correctness (To ensure no wrong distribution of information/data)
@@ -54,90 +52,57 @@ The main stakeholders for this projekt (with their most valued expectation/s) ar
 -   Chief Information Officer/Michael Lee (Ease the protection of student and lecturer data)
 
 ## Requirements Overview
-
- **Dashboard with relevant information**
+<div class="formalpara-title">
  
+ **Dashboard with relevant information**
+ </div>
 To make strategic decisions, information and data is crucial. Therefore, the university management application needs to make those not just available, but also displays them in an adequate manner. 
 
-
+<div class="formalpara-title">
+ 
 **Course and curriculum management**
-
+</div>
 The organisation of the courses and the curriculum represent two crucial parts of day to day life in an university. The software need to support the employees here and automate as much process steps as possible.
 
+<div class="formalpara-title">
+ 
 **User authentification**
-
+</div>
 The university has to handle the personal data of the students as well as of employees. To make sure, that noone can access someoneelses account and data user authentification need to be implemented.
 
+<div class="formalpara-title">
+ 
 **Billing and payment management**
-
+</div>
 This application supports the falculty and students whenever they have to interact with eachother. Therefore also a billing and payment management system will be implemented. 
 
+<div class="formalpara-title">
+ 
 **Reports and Analytics**
-
+</div>
 Defined reports will be generated periodically. Also certain tools for further analysing the collected data will be accessable, to make (for exmaple) additional dashbords possible.
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-From the point of view of the end users a system is created or modified
-to improve support of a business activity and/or improve the quality.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Short textual description, probably in tabular use-case format. If
-requirements documents exist this overview should refer to these
-documents.
-
-Keep these excerpts as short as possible. Balance readability of this
-document with potential redundancy w.r.t to requirements documents.
-
-See [Introduction and Goals](https://docs.arc42.org/section-1/) in the
-arc42 documentation.
 
 ## Quality Goals
 
 <div class="formalpara-title">
 
-**Contents**
-
+**Usability**
 </div>
-
-The top three (max five) quality goals for the architecture whose
-fulfillment is of highest importance to the major stakeholders. We
-really mean quality goals for the architecture. Don’t confuse them with
-project goals. They are not necessarily identical.
-
-Consider this overview of potential topics (based upon the ISO 25010
-standard):
-
-![Categories of Quality
-Requirements](images/01_2_iso-25010-topics-EN.drawio.png)
+The main goal of this applications is making the day to day life of students as well as employees easier. Therefore it must not be necessary to have a training to be able to work with the university management tool. Everytime person who has to fullfill a task which involes this application should be able to it without any detailed instructions.
 
 <div class="formalpara-title">
 
-**Motivation**
-
+**Correctness**
 </div>
 
-You should know the quality goals of your most important stakeholders,
-since they will influence fundamental architectural decisions. Make sure
-to be very concrete about these qualities, avoid buzzwords. If you as an
-architect do not know how the quality of your work will be judged…
+This tool works with personal data of many individuals. Therefore it is required by law to handle those information carefully. However, also data like grades, dates of tests as well as timetables are crucial for day to day life at a university and needs to be accessible and correct at all times.
 
 <div class="formalpara-title">
 
-**Form**
-
+**Interoperability**
 </div>
 
-A table with quality goals and concrete scenarios, ordered by priorities
+A university is in conatct with several other oragnisations like the state, other universties and so on. This partnerships often include some type of exchange of data. To support this process and also make the oragnisation capeable of connecting with further organisations interoperability has a central position in this project.
 
 ## Stakeholders
 
