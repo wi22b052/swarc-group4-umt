@@ -58,11 +58,13 @@ The main stakeholders for this projekt (with their most valued expectation/s) ar
  </div>
 To make strategic decisions, information and data is crucial. Therefore, the university management application needs to make those not just available, but also displays them in an adequate manner. 
 
+
 <div class="formalpara-title">
  
 **Course and curriculum management**
 </div>
 The organisation of the courses and the curriculum represent two crucial parts of day to day life in an university. The software need to support the employees here and automate as much process steps as possible.
+
 
 <div class="formalpara-title">
  
@@ -70,11 +72,13 @@ The organisation of the courses and the curriculum represent two crucial parts o
 </div>
 The university has to handle the personal data of the students as well as of employees. To make sure, that noone can access someoneelses account and data user authentification need to be implemented.
 
+
 <div class="formalpara-title">
  
 **Billing and payment management**
 </div>
 This application supports the falculty and students whenever they have to interact with eachother. Therefore also a billing and payment management system will be implemented. 
+
 
 <div class="formalpara-title">
  
@@ -90,12 +94,14 @@ Defined reports will be generated periodically. Also certain tools for further a
 </div>
 The main goal of this applications is making the day to day life of students as well as employees easier. Therefore it must not be necessary to have a training to be able to work with the university management tool. Everytime person who has to fullfill a task which involes this application should be able to it without any detailed instructions.
 
+
 <div class="formalpara-title">
 
 **Correctness**
 </div>
 
 This tool works with personal data of many individuals. Therefore it is required by law to handle those information carefully. However, also data like grades, dates of tests as well as timetables are crucial for day to day life at a university and needs to be accessible and correct at all times.
+
 
 <div class="formalpara-title">
 
@@ -108,47 +114,12 @@ A university is in conatct with several other oragnisations like the state, othe
 
 <div class="formalpara-title">
 
-**Contents**
-
-</div>
-
-Explicit overview of stakeholders of the system, i.e. all person, roles
-or organizations that
-
--   should know the architecture
-
--   have to be convinced of the architecture
-
--   have to work with the architecture or with code
-
--   need the documentation of the architecture for their work
-
--   have to come up with decisions about the system or its development
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-You should know all parties involved in development of the system or
-affected by the system. Otherwise, you may get nasty surprises later in
-the development process. These stakeholders determine the extent and the
-level of detail of your work and its results.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Table with role names, person names, and their expectations with respect
-to the architecture and its documentation.
-
 | Role/Name   | Contact        | Expectations       |
 |-------------|----------------|--------------------|
-| *\<Role-1>* | *\<Contact-1>* | *\<Expectation-1>* |
-| *\<Role-2>* | *\<Contact-2>* | *\<Expectation-2>* |
+| *Senior Lecturer/Jane Doe* | *j.doe@uni.at* | *\Efficiency; Ease the workload* |
+| *Student Rep./ Emily Chen* | *e.chen@uni.at* | *\Proper User Experience; Ease the communication; Data protection* |
+| *Financial Officer/Sarah Johnson* | *\s.johnson@uni.at* | *\Create revenue of subscription fees* |
+| *Chief Information Officer/Michael Lee* | *\m.lee@uni.at* | *\Ease the protection of student and lecturer data* |
 
 <div style="page-break-after: always;"></div>
 
