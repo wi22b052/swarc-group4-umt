@@ -138,84 +138,39 @@ A university is in conatct with several other oragnisations like the state, othe
 <div style="page-break-after: always;"></div>
 
 # System Scope and Context
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-System scope and context - as the name suggests - delimits your system
-(i.e. your scope) from all its communication partners (neighboring
-systems and users, i.e. the context of your system). It thereby
-specifies the external interfaces.
-
-If necessary, differentiate the business context (domain specific inputs
-and outputs) from the technical context (channels, protocols, hardware).
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-The domain interfaces and technical interfaces to communication partners
-are among your system’s most critical aspects. Make sure that you
-completely understand them.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Various options:
-
--   Context diagrams
-
--   Lists of communication partners and their interfaces.
-
-See [Context and Scope](https://docs.arc42.org/section-3/) in the arc42
-documentation.
-
 ## Business Context
 
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-Specification of **all** communication partners (users, IT-systems, …)
-with explanations of domain specific inputs and outputs or interfaces.
-Optionally you can add domain specific formats or communication
-protocols.
+![image](https://github.com/wi22b052/swarc-group4-umt/assets/131394605/2e8ac773-b993-4c62-90fc-e3710fa38405)
 
 <div class="formalpara-title">
 
-**Motivation**
-
+**Student**
 </div>
-
-All stakeholders should understand which data are exchanged with the
-environment of the system.
+The students might will be the most frequent users of this application. This kind of users interacts most of the times by inserting information or looking something up.
 
 <div class="formalpara-title">
 
-**Form**
-
+**Accounting Software**
 </div>
+The currently used application for supporting the accounting process will be further used. Neccessary information will be provided by the university managment tool.
 
-All kinds of diagrams that show the system as a black box and specify
-the domain interfaces to communication partners.
+<div class="formalpara-title">
 
-Alternatively (or additionally) you can use a table. The title of the
-table is the name of your system, the three columns contain the name of
-the communication partner, the inputs, and the outputs.
+**Moodle**
+</div>
+Moodle is a crucial part when preparing for and working in the lectures. Also the grading is handled here. Also moodle need certain personal data of the students which is provided by the university application tool.
 
-**\<Diagram or Table>**
+<div class="formalpara-title">
 
-**\<optionally: Explanation of external domain interfaces>**
+**Austia Student Database**
+</div>
+University are obliged by law to provide ceratin information of the students and the falculty.
+
+<div class="formalpara-title">
+
+**Webmail**
+</div>
+The university already has a tool for providing the students as well as the employees with an email adress. This application will be further used and will be get needed personal data.
 
 ## Technical Context
 
