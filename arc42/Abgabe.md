@@ -57,6 +57,7 @@ The main stakeholders for this projekt (with their most valued expectation/s) ar
  **Dashboard with relevant information**
  
  </div>
+ 
 To make strategic decisions, information and data is crucial. Therefore, the university management application needs to make those not just available, but also displays them in an adequate manner. 
 
 
@@ -65,6 +66,7 @@ To make strategic decisions, information and data is crucial. Therefore, the uni
 **Course and curriculum management**
 
 </div>
+
 The organisation of the courses and the curriculum represent two crucial parts of day to day life in an university. The software need to support the employees here and automate as much process steps as possible.
 
 
@@ -73,7 +75,9 @@ The organisation of the courses and the curriculum represent two crucial parts o
 **User authentification**
 
 </div>
+
 The university has to handle the personal data of the students as well as of employees. To make sure, that noone can access someoneelses account and data user authentification need to be implemented.
+
 
 
 <div class="formalpara-title">
@@ -81,6 +85,7 @@ The university has to handle the personal data of the students as well as of emp
 **Billing and payment management**
 
 </div>
+
 This application supports the falculty and students whenever they have to interact with eachother. Therefore also a billing and payment management system will be implemented. 
 
 
@@ -89,6 +94,7 @@ This application supports the falculty and students whenever they have to intera
 **Reports and Analytics**
 
 </div>
+
 Defined reports will be generated periodically. Also certain tools for further analysing the collected data will be accessable, to make (for exmaple) additional dashbords possible.
 
 ## Quality Goals
