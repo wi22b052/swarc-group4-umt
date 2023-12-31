@@ -910,38 +910,27 @@ Tabular or free form text.
 
 <div class="formalpara-title">
 
-**Contents**
+**Attempt of stealing personal data**
 
 </div>
 
-A list of identified technical risks or technical debts, ordered by
-priority
+In the last years criminal organisations regularly tried to steal personal data of comopanies an demand money in exchange to not make this information public. To reduce that risk, an external IT security company will periodically attempt this and give feedback for further improvements. 
 
 <div class="formalpara-title">
 
-**Motivation**
+**DSGVO adaptation**
 
 </div>
 
-“Risk management is project management for grown-ups” (Tim Lister,
-Atlantic Systems Guild.)
-
-This should be your motto for systematic detection and evaluation of
-risks and technical debts in the architecture, which will be needed by
-management stakeholders (e.g. project managers, product owners) as part
-of the overall risk analysis and measurement planning.
+It is possible that the european parliament wants to make the rules for handeling personal data stricter. Therefore the application has to be adaptable regarding how these kind of information is stored an processed.
 
 <div class="formalpara-title">
 
-**Form**
+**"Quick Fixes" for features**
 
 </div>
 
-List of risks and/or technical debts, probably including suggested
-measures to minimize, mitigate or avoid risks or reduce technical debts.
-
-See [Risks and Technical Debt](https://docs.arc42.org/section-11/) in
-the arc42 documentation.
+Due to hard deadlines, there might be a scenario, where certain features have to be implemented rather quickly and so developers have to trade fast developing against technical dept. However, this has to be well documented, so later this dept can be fixed, when time is available. 
 
 <div style="page-break-after: always;"></div>
 
