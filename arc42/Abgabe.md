@@ -27,29 +27,11 @@ The following document gives a detailed overview of goals, features, functionali
 Also assumptions as well as reasonings for certain decisions are documented here for future reference. 
 
 In the end, the delivered product should:
--   make communication between students and the falculty as well as its employees easier
+-   make communication between students and the faculty as well as its employees easier
 -   be easy to use without any training for all parties
 -   drastically lower the organizational overhead
 -   secure private data
 -   enable data-driven decision making through reporting and analytics
-
-To make this possible important features are:
--   dashboard with relevant information
--   Course and curriculum management (before, during and after the course)
--   User authentication
--   Billing and payment management
--   Reports and Analytics
-
-Quality goals which influence architectural decisions:
--   Usability (Easy access and usage; No training required)
--   Correctness (To ensure no wrong distribution of information/data)
--   Interoperability (Communication with software of other institution)
-
-The main stakeholders for this projekt (with their most valued expectation/s) are:
--   Senior Lecturer/Jane Doe (Efficiency; Ease the workload;)
--   Student Rep./ Emily Chen (Proper User Experience; Ease the communication; Data protection)
--   Financial Officer/Sarah Johnson (Create revenue of subscription fees)
--   Chief Information Officer/Michael Lee (Ease the protection of student and lecturer data)
 
 ## Requirements Overview
 <div class="formalpara-title">
@@ -67,7 +49,7 @@ To make strategic decisions, information and data is crucial. Therefore, the uni
 
 </div>
 
-The organisation of the courses and the curriculum represent two crucial parts of day to day life in an university. The software need to support the employees here and automate as much process steps as possible.
+The organisation of the courses and the curriculum represent two crucial parts of day-to-day life in a university. The software needs to support the employees here and automate as much process steps as possible.
 
 
 <div class="formalpara-title">
@@ -76,7 +58,7 @@ The organisation of the courses and the curriculum represent two crucial parts o
 
 </div>
 
-The university has to handle the personal data of the students as well as of employees. To make sure, that noone can access someoneelses account and data user authentification need to be implemented.
+The university must handle the personal data of the students as well as of employees. To make sure, that no one can access semiboneless account and data user authentication need to be implemented.
 
 
 
@@ -86,7 +68,7 @@ The university has to handle the personal data of the students as well as of emp
 
 </div>
 
-This application supports the falculty and students whenever they have to interact with eachother. Therefore also a billing and payment management system will be implemented. 
+This application supports the faculty and students whenever they must interact with each other. Therefore, also a billing and payment management system will be implemented.
 
 
 <div class="formalpara-title">
@@ -95,7 +77,7 @@ This application supports the falculty and students whenever they have to intera
 
 </div>
 
-Defined reports will be generated periodically. Also certain tools for further analysing the collected data will be accessable, to make (for exmaple) additional dashbords possible.
+Defined reports will be generated periodically. Also certain tools for further analysing the collected data will be accessible, to make (for example) additional dashboards possible.
 
 ## Quality Goals
 
@@ -105,7 +87,7 @@ Defined reports will be generated periodically. Also certain tools for further a
 
 </div>
 
-The main goal of this applications is making the day to day life of students as well as employees easier. Therefore it must not be necessary to have a training to be able to work with the university management tool. Everytime person who has to fullfill a task which involes this application should be able to it without any detailed instructions.
+The main goal of this applications is making the day-to-day life of students as well as employees easier. Therefore, it must not be necessary to have a training to be able to work with the university management tool. Every time person who has to fulfil a task which involves this application should be able to it without any detailed instructions.
 
 
 <div class="formalpara-title">
@@ -114,7 +96,7 @@ The main goal of this applications is making the day to day life of students as 
 
 </div>
 
-This tool works with personal data of many individuals. Therefore it is required by law to handle those information carefully. However, also data like grades, dates of tests as well as timetables are crucial for day to day life at a university and needs to be accessible and correct at all times.
+This tool works with personal data of many individuals. Therefore, it is required by law to handle that information carefully. However, also data like grades, dates of tests as well as timetables are crucial for day-to-day life at a university and needs to be accessible and always correct.
 
 
 <div class="formalpara-title">
@@ -123,7 +105,7 @@ This tool works with personal data of many individuals. Therefore it is required
 
 </div>
 
-A university is in conatct with several other oragnisations like the state, other universties and so on. This partnerships often include some type of exchange of data. To support this process and also make the oragnisation capeable of connecting with further organisations interoperability has a central position in this project.
+A university is in contact with several other organisations like the state, other universities and so on. These partnerships often include some type of exchange of data. To support this process and also make the organisation capable of connecting with further organisations interoperability has a central position in this project.
 
 ## Stakeholders
 
@@ -171,7 +153,7 @@ The students might will be the most frequent users of this application. This kin
 
 </div>
 
-The currently used application for supporting the accounting process will be further used. Neccessary information will be provided by the university managment tool.
+The currently used application for supporting the accounting process will be further used. Necessary information will be provided by the university management tool.
 
 <div class="formalpara-title">
 
@@ -179,7 +161,7 @@ The currently used application for supporting the accounting process will be fur
 
 </div>
 
-Moodle is a crucial part when preparing for and working in the lectures. Also the grading is handled here. Also moodle need certain personal data of the students which is provided by the university application tool.
+Moodle is a crucial part when preparing for and working in the lectures. Also, the grading is handled here. Also, Moodle needs certain personal data of the students which is provided by the university application tool.
 
 <div class="formalpara-title">
 
@@ -187,7 +169,7 @@ Moodle is a crucial part when preparing for and working in the lectures. Also th
 
 </div>
 
-Universities are obliged by law to provide ceratin information of the students and the falculty.
+Universities are obliged by law to provide certain information of the students and the faculty.
 
 <div class="formalpara-title">
 
@@ -195,16 +177,17 @@ Universities are obliged by law to provide ceratin information of the students a
 
 </div>
 
-The university already has a tool for providing the students as well as the employees with an email adress. This application will be further used and will be get needed personal data.
+The university already has a tool for providing the students as well as the employees with an email address. This application will be further used and will be get needed personal data.
 
 ## Technical Context
 
 ![image](https://github.com/wi22b052/swarc-group4-umt/assets/131394605/ea3c0699-94a4-4e97-b804-cbd875fbd02a)
 
-There are three types of users, which interact with the system. Students and lectores each manage their own data and deal with the course management as well as an admin. The course management plays a crucial part in the system, by accpeting or defining students, lecture and the necessary rooms for a course. Also attendance and grades management (which are important for the reporting) get information from the curse management.  
+There are three types of users, which interact with the system. Students and lectors each manage their own data and deal with the course management as well as an admin. The course management plays a crucial part in the system, by accepting or defining students, lecture, and the necessary rooms for a course. Also, attendance and grades management (which are important for the reporting) get information from the curse management. 
 
 ![image](https://github.com/wi22b052/swarc-group4-umt/assets/131394605/6b5bc196-e683-481e-bd8d-2a85eee1ab09)
-As already mentioned is the admin crucial for creating a course with all its involved people and necessary facilities. Students and lectores are both needed for an exam, where later a grade is set and further provided to grades management. Also of course, it is important to track the attendance of a course and further transfer this data.
+
+As already mentioned, is the admin crucial for creating a course with all its involved people and necessary facilities. Students and lectures are both needed for an exam, where later a grade is set and further provided to grades management. Also of course, it is important to track the attendance of a course and further transfer this data.
 
 <div style="page-break-after: always;"></div>
 
@@ -216,7 +199,7 @@ As already mentioned is the admin crucial for creating a course with all its inv
 
 </div>
 
-An easy deployment is crcial for this application, because there is just a short timeframe for setting it up and going life during summer. To succesfully establish this SOA would be the prefered approach.
+An easy deployment is crucial for this application, because there is just a short timeframe for setting it up and going life during summer. To successfully establish this SOA would be the preferred approach.
 
 <div class="formalpara-title">
 
@@ -224,17 +207,16 @@ An easy deployment is crcial for this application, because there is just a short
 
 </div>
 
-Demand an priorities can change over time, especially when working with software. Due to that, the system has to be able to be adapted. A system based on a SOA or MS approach would gurante this.
+Demand a priorities can change over time, especially when working with software. Due to that, the system must be able to be adapted. A system based on a SOA or MS approach would guarantee this.
 
 <div class="formalpara-title">
 
 **low maintenance cost**
 
 </div>
-
 When the university management tool is set up, it should take a minimum of time and cost to keep it running. This could be realised by an SOA or Monolithic approach.
 
-Demand an priorities can change over time, especially when working with software. Due to that, the system has to be able to be adapted. A system based on a SOA or MS approach would gurante this.
+Demands and priorities can change over time, especially when working with software. Due to that, the system must be able to be adapted. A system based on a SOA or MS approach would guarantee this.
 
 <div class="formalpara-title">
 
@@ -242,9 +224,7 @@ Demand an priorities can change over time, especially when working with software
 
 </div>
 
-Keeping the mentioned goals in mind an SOA architectual approach seems as the most promising one. The combination of being able to adapt and improving the system as well as low overhead seems like a perfect fit for this project.
-
-
+Keeping the mentioned goals in mind an SOA architectural approach seems as the most promising one. The combination of being able to adapt and improving the system as well as low overhead seems like a perfect fit for this project.
 
 <div style="page-break-after: always;"></div>
 
@@ -914,7 +894,7 @@ Tabular or free form text.
 
 </div>
 
-In the last years criminal organisations regularly tried to steal personal data of comopanies an demand money in exchange to not make this information public. To reduce that risk, an external IT security company will periodically attempt this and give feedback for further improvements. 
+In the last years criminal organisations regularly tried to steal personal data from companies and demand money in exchange to not make this information public. To reduce that risk, an external IT security company will periodically attempt this and give feedback for further improvements.
 
 <div class="formalpara-title">
 
@@ -922,7 +902,7 @@ In the last years criminal organisations regularly tried to steal personal data 
 
 </div>
 
-It is possible that the european parliament wants to make the rules for handeling personal data stricter. Therefore the application has to be adaptable regarding how these kind of information is stored an processed.
+It is possible that the European parliament wants to make the rules for handling personal data stricter. Therefore, the application has to be adaptable regarding how this kind of information is stored and processed.
 
 <div class="formalpara-title">
 
@@ -930,8 +910,7 @@ It is possible that the european parliament wants to make the rules for handelin
 
 </div>
 
-Due to hard deadlines, there might be a scenario, where certain features have to be implemented rather quickly and so developers have to trade fast developing against technical dept. However, this has to be well documented, so later this dept can be fixed, when time is available. 
-
+Due to hard deadlines, there might be a scenario, where certain features must be implemented rather quickly and so developers must trade fast developing against technical dept. However, this must be well documented, so later this dept can be fixed, when time is available.
 <div style="page-break-after: always;"></div>
 
 # Glossary
