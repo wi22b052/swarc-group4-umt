@@ -311,25 +311,21 @@ following white box template. It contains
     will get away with examples or simple signatures.
 
 ***\<Overview Diagram>***
+![building block level 1](images/Baustein_level1.png)
 
 Motivation  
-*\<text explanation>*
+We decided on this decomposition because it allows that all courses are managed in one specific building block, which will be the most important building block. This block will access all the other blocks via internal interfaces. The users will just access this buidling block as well as a specificially designed buidling block for them (including the lector management for the lector and the student management for the student), all others including the user dashboard will be operated via the course management building block. 
 
 Contained Building Blocks  
-*\<Description of contained building block (black boxes)>*
-
-Important Interfaces  
-*\<Description of important interfaces>*
-
-Insert your explanations of black boxes from level 1:
-
-If you use tabular form you will only describe your black boxes with
-name and responsibility according to the following schema:
 
 | **Name**         | **Responsibility** |
 |------------------|--------------------|
-| *\<black box 1>* |  *\<Text>*         |
-| *\<black box 2>* |  *\<Text>*         |
+| *\<Faculty Management>* |  *\<The faculty management is responsible to provide the rooms for the course.>*         |
+| *\<Student Management>* |  *\<The student management is respsonsible to collect and check the base data of the students.>*         |
+| *\<Lector Management>* |  *\<The lector management is respsonsible to collect and check the base data of the lectors.>*         |
+| *\<Attendance Management>* |  *\<The attendance management is responsible to track the attendance of the students due the entirety of the course.>*         |
+| *\<Grades Management>* |  *\<The Grades Management is responsible to track and calculate the grades of the students for each course.>*         |
+| *\<Reporting>* |  *\<The reporting is responsible to provide different reports on the attendance and grades of each course.>*         |
 
 If you use a list of black box descriptions then you fill in a separate
 black box template for every important building block . Its headline is
@@ -494,19 +490,15 @@ There are many notations for describing scenarios, e.g.
 See [Runtime View](https://docs.arc42.org/section-6/) in the arc42
 documentation.
 
-## \<Runtime Scenario 1>
-(images/runtimeview-sc-1.PNG)
+## \<Runtime Scenario 1: Create Course>
+![Runtime scenario 1](images/runtimeview-sc-1.PNG)
 
--   *\<insert runtime diagram or textual description of the scenario>*
-
--   *\<insert description of the notable aspects of the interactions
-    between the building block instances depicted in this diagram.>*
+-   In this runtime scenario there are four different building block instances involved (Student management, course management, facility management and lector management). As depicted in the graphic and shown in the building block diagram the scenario starts from the course management instance, which creates the base instance of a course, where students, rooms and lectors are assigned afterwards.
+-   If at least one of the other building blocks reports a negative answer (eg due to too little registered students or no available room) the course is deleted and the scenario ends with a negative output.
+-   If all of the other buidling blocks report a positive answer the course is saved and the scenario ends with a positive output.
 
 ## \<Runtime Scenario 2>
 
-## …
-
-## \<Runtime Scenario n>
 
 <div style="page-break-after: always;"></div>
 
