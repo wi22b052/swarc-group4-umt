@@ -266,7 +266,7 @@ level without disclosing implementation details.
 The building block view is a hierarchical collection of black boxes and
 white boxes (see figure below) and their descriptions.
 
-![Hierarchy of building blocks](images/05_building_blocks-EN.png)
+![Hierarchy of building blocks](images/Baustein_level1_und_level2.png)
 
 **Level 1** is the white box description of the overall system together
 with black box descriptions of all contained building blocks.
@@ -495,6 +495,7 @@ See [Runtime View](https://docs.arc42.org/section-6/) in the arc42
 documentation.
 
 ## \<Runtime Scenario 1>
+(images/runtimeview-sc-1.PNG)
 
 -   *\<insert runtime diagram or textual description of the scenario>*
 
