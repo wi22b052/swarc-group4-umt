@@ -310,7 +310,7 @@ following white box template. It contains
     necessary compatibilities and many things more. In the best case you
     will get away with examples or simple signatures.
 
-***\<Overview Diagram>***
+***\Overview Diagram***
 ![building block level 1](images/Baustein_level1.png)
 
 Motivation  
@@ -320,90 +320,56 @@ Contained Building Blocks
 
 | **Name**         | **Responsibility** |
 |------------------|--------------------|
-| *\<Faculty Management>* |  *\<The faculty management is responsible to provide the rooms for the course.>*         |
-| *\<Student Management>* |  *\<The student management is respsonsible to collect and check the base data of the students.>*         |
-| *\<Lector Management>* |  *\<The lector management is respsonsible to collect and check the base data of the lectors.>*         |
-| *\<Attendance Management>* |  *\<The attendance management is responsible to track the attendance of the students due the entirety of the course.>*         |
-| *\<Grades Management>* |  *\<The Grades Management is responsible to track and calculate the grades of the students for each course.>*         |
-| *\<Reporting>* |  *\<The reporting is responsible to provide different reports on the attendance and grades of each course.>*         |
+| *\Course Management* |  *\The course management is responsible to manage the courses.*         |
+| *\Faculty Management* |  *\The faculty management is responsible to provide the rooms for the course.*         |
+| *\Student Management* |  *\The student management is respsonsible to collect and check the base data of the students.*         |
+| *\Lector Management* |  *\The lector management is respsonsible to collect and check the base data of the lectors.*         |
+| *\Attendance Management* |  *\The attendance management is responsible to track the attendance of the students due the entirety of the course.*         |
+| *\Grades Management* |  *\The Grades Management is responsible to track and calculate the grades of the students for each course.*         |
+| *\Reporting* |  *\The reporting is responsible to provide different reports on the attendance and grades of each course.*         |
 
 If you use a list of black box descriptions then you fill in a separate
 black box template for every important building block . Its headline is
 the name of the black box.
 
-### \<Name black box 1>
+### \Faculty Management
+The faculty management is responsible to provide the rooms for the course as well as tracking the room situation.
 
-Here you describe \<black box 1> according the the following black box
-template:
+### \Student Management
+The student management is responsible to collect and check the base data of the students.
 
--   Purpose/Responsibility
+### \Lector Management
+The lector management is respsonsible to collect and check the base data of the lectors.
 
--   Interface(s), when they are not extracted as separate paragraphs.
-    This interfaces may include qualities and performance
-    characteristics.
+### \Course Management
+The course management is responsible to manage the courses. It is also responsible to manage the students, lectors and rooms assigned to this specific course.
 
--   (Optional) Quality-/Performance characteristics of the black box,
-    e.g.availability, run time behavior, ….
+### \Grades Management
+The Grades Management is responsible to track and calculate the grades of the students for each course.
 
--   (Optional) directory/file location
+### \Attendance Management
+The attendance management is responsible to track the attendance of the students due the entirety of the course.
 
--   (Optional) Fulfilled requirements (if you need traceability to
-    requirements).
-
--   (Optional) Open issues/problems/risks
-
-*\<Purpose/Responsibility>*
-
-*\<Interface(s)>*
-
-*\<(Optional) Quality/Performance Characteristics>*
-
-*\<(Optional) Directory/File Location>*
-
-*\<(Optional) Fulfilled Requirements>*
-
-*\<(optional) Open Issues/Problems/Risks>*
-
-### \<Name black box 2>
-
-*\<black box template>*
-
-### \<Name black box n>
-
-*\<black box template>*
-
-### \<Name interface 1>
-
-…
-
-### \<Name interface m>
+### \Reporting
+The reporting is responsible to provide different reports on the attendance and grades of each course.
 
 ## Level 2
 
-Here you can specify the inner structure of (some) building blocks from
-level 1 as white boxes.
+### White Box *\Course Management*
+![building block level 2](images/Baustein_level2.png)
 
-You have to decide which building blocks of your system are important
-enough to justify such a detailed description. Please prefer relevance
-over completeness. Specify important, surprising, risky, complex or
-volatile building blocks. Leave out normal, simple, boring or
-standardized parts of your system
+The Course Management building block consists of three main functions:
+- create Course
+- hold Exam
+- track Attendance
 
-### White Box *\<building block 1>*
+- track Attendance uses a direct interface to connect with the attendance management buidling block.
 
-…describes the internal structure of *building block 1*.
+- hold exam uses a second function to communciate with the grades management.
 
-*\<white box template>*
+- create Course communicates with three other building blocks (Lector Management, Faculty Management and Student Management)
 
-### White Box *\<building block 2>*
-
-*\<white box template>*
-
-…
-
-### White Box *\<building block m>*
-
-*\<white box template>*
+  The main purpose of this block is to manage all the courses the university offers. Each course is created through accessing this buidling block.
 
 ## Level 3
 
@@ -490,7 +456,7 @@ There are many notations for describing scenarios, e.g.
 See [Runtime View](https://docs.arc42.org/section-6/) in the arc42
 documentation.
 
-## \<Runtime Scenario 1: Create Course>
+## \Runtime Scenario 1: Create Course
 ![Runtime scenario 1](images/runtimeview-sc-1.PNG)
 
 -   In this runtime scenario there are four different building block instances involved (Student management, course management, facility management and lector management). As depicted in the graphic and shown in the building block diagram the scenario starts from the course management instance, which creates the base instance of a course, where students, rooms and lectors are assigned afterwards.
