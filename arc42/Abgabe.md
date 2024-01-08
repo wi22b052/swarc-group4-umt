@@ -670,17 +670,29 @@ documentation.
 
 ## *\<Concept 1>*
 
-*\<explanation>*
+## Agile
+
 
 ## *\<Concept 2>*
 
-*\<explanation>*
+## TDD
 
-…
 
-## *\<Concept n>*
+## *\<Concept 3>*
 
-*\<explanation>*
+## SOA
+
+
+## *\<Concept 4>*
+
+## Seperation of 3 layers
+
+
+## *\<Concept 5>*
+
+## Introduction of an encryption software (for personal data)
+
+
 
 <div style="page-break-after: always;"></div>
 
