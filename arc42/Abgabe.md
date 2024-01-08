@@ -670,27 +670,27 @@ documentation.
 
 ## *\<Concept 1>*
 
-## Agile
+**Agile**
 
 
 ## *\<Concept 2>*
 
-## TDD
+**TDD**
 
 
 ## *\<Concept 3>*
 
-## SOA
+**SOA**
 
 
 ## *\<Concept 4>*
 
-## Seperation of 3 layers
+**Seperation of 3 layers**
 
 
 ## *\<Concept 5>*
 
-## Introduction of an encryption software (for personal data)
+**Introduction of an encryption software (for personal data)**
 
 
 
