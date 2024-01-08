@@ -670,28 +670,47 @@ documentation.
 
 ## *\<Concept 1>*
 
-**Agile**
-
-
+**Development concepts**
+1. Agile
+   Agile is an iterative and flexible approach to software development and project    
+   management. It emphasizes collaboration, adaptability, and customer satisfaction. 
+   Agile methodologies, such as Scrum or Kanban, promote regular reassessment and 
+   adaptation of plans based on feedback throughout the development process.
+   
+2. TDD (Test Driven Development)
+   Test-Driven Development (TDD) is a software development method where tests are 
+   written before code. The process involves creating a failing test, writing the 
+   minimal code to pass the test, and then refining the code while ensuring all tests 
+   still pass. TDD promotes code quality, early bug detection, and serves as 
+   documentation for software behavior.
+   
 ## *\<Concept 2>*
 
-**TDD**
+**Architecture and design patterns**
+1. SOA
+   Service-Oriented Architecture (SOA) is a design approach that organizes software 
+   into independent services communicating through defined interfaces, promoting 
+   flexibility and reusability.
+2. Seperation of three layers (Database, Application, Client)
+   The separation of three layers  —  Database, Application, and Client—is a design  
+   principle in software architecture.
 
+   2.1 Database Layer:
+   Manages data storage and retrieval.
+   Stores and organizes information using a database system.
 
+   2.2 Application Layer:
+   Contains the business logic and core functionalities.
+   Processes data from the database layer and prepares it for presentation.
+   
+   2.3 Client Layer:
+   Represents the user interface and user interaction.
+   Displays information to users and collects input.
+   
 ## *\<Concept 3>*
 
-**SOA**
-
-
-## *\<Concept 4>*
-
-**Seperation of 3 layers**
-
-
-## *\<Concept 5>*
-
-**Introduction of an encryption software (for personal data)**
-
+**Safety and security concepts**
+  Introduction of Encryption Software (for personal data)
 
 
 <div style="page-break-after: always;"></div>
