@@ -883,7 +883,7 @@ evaluated.
 
 </div>
 
-** Our Quality Goals and Scenarios**
+**Our Quality Goals and Scenarios**
 
 Goal 1 (Usability): 
   Scenario: A new student (without prior knowledge) requires a maximum of 10 minutes to  understand and be able to use the main functionalities of the system.
