@@ -829,7 +829,7 @@ In any case the tree should include links to the scenarios of the
 following section.
 
 **Example of the applied Quality Tree:**
-![Quality Tree](images/Quality_Tree.png)
+![Quality Tree](images/Quality_Tree.jpg)
 
 ## Quality Scenarios
 
