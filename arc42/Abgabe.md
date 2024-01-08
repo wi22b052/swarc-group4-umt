@@ -546,16 +546,18 @@ adapt this section of arc42 for all relevant environments.
 
 ***\<Overview Diagram>***
 
+![Infrastructure Level 1](images/Deployment_View.png)
+
 Motivation  
-*\<explanation in text form>*
+Our idea was to build the Moodle-System around a handful of Nodes to distribute the load which can come in a system which needs to run permanently 24/7
+and has a lot of users. For one this can mean unnecessary infrastructure elements, but for a reliable and flexible system it is sufficient. In this image we considered one database as an example with the interaction of Webservice and Firewall, but there can be more than one database if needed.
 
 Quality and/or Performance Features  
-*\<explanation in text form>*
+1. Through two or more nodes the load can be distributed in a better way so the system doesn't overload
+2. Keeping it more simple with the database and the Browser may prevent overcomplicating things
 
 Mapping of Building Blocks to Infrastructure  
 *\<description of the mapping>*
-
-![Infrastructure Level 1](images/Deployment_View.png)
 
 ## Infrastructure Level 2
 
