@@ -711,7 +711,7 @@ documentation.
 
 **Safety and security concepts**
 
-  Introduction of Encryption Software (for personal data)
+   Introduction of Encryption Software (for personal data)
 
 
 <div style="page-break-after: always;"></div>
