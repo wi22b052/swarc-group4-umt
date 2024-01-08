@@ -764,6 +764,9 @@ Various options:
 See [Architecture Decisions](https://docs.arc42.org/section-9/) in the
 arc42 documentation. There you will find links and examples about ADR.
 
+**Our Crosscutting decisions**
+![Crosscutting Decisions](images/Crosscutting_Concepts_Decisions.png)
+
 <div style="page-break-after: always;"></div>
 
 # Quality Requirements
