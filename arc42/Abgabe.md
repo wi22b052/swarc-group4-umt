@@ -886,15 +886,19 @@ evaluated.
 **Our Quality Goals and Scenarios**
 
 Goal 1 (Usability): 
+  
   Scenario: A new student (without prior knowledge) requires a maximum of 10 minutes to  understand and be able to use the main functionalities of the system.
 
 Goal 2 (Usability):
+  
   Scenario: The website-functionalities and design (which is used as client) works on all major browsers.
 
 Goal 3 (Correctness):
+  
   Scenario: Emails with personalized information are restricted from being sent via mailing lists.
 
 Goal 4 (Interoperability):
+  
   Scenario: The system offers XML and JSON interface.
 
 <div style="page-break-after: always;"></div>
