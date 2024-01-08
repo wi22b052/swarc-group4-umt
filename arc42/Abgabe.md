@@ -710,6 +710,7 @@ documentation.
 ## *\<Concept 3>*
 
 **Safety and security concepts**
+
   Introduction of Encryption Software (for personal data)
 
 
