@@ -555,7 +555,7 @@ Quality and/or Performance Features
 Mapping of Building Blocks to Infrastructure  
 *\<description of the mapping>*
 
-![Infrastructure Level 1](images/Deployment View.png)
+![Infrastructure Level 1](images/)
 
 ## Infrastructure Level 2
 
