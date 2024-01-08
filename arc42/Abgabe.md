@@ -695,15 +695,15 @@ documentation.
    The separation of three layers  —  Database, Application, and Client—is a design  
    principle in software architecture.
 
-   2.1 Database Layer:
+   Database Layer:
    Manages data storage and retrieval.
    Stores and organizes information using a database system.
 
-   2.2 Application Layer:
+   Application Layer:
    Contains the business logic and core functionalities.
    Processes data from the database layer and prepares it for presentation.
    
-   2.3 Client Layer:
+   Client Layer:
    Represents the user interface and user interaction.
    Displays information to users and collects input.
    
