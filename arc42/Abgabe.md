@@ -179,8 +179,6 @@ Universities are obliged by law to provide certain information of the students a
 
 The university already has a tool for providing the students as well as the employees with an email address. This application will be further used and will be get needed personal data.
 
-## Technical Context
-
 
 
 <div style="page-break-after: always;"></div>
