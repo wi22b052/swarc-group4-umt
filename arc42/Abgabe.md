@@ -926,11 +926,7 @@ documentation.
 | Representational State Transfer | REST | https://www.ionos.at/digitalguide/server/knowhow/rest-die-http-loesung-fuer-webservices/ |
 | Microservices | MS | https://aws.amazon.com/microservices/#:~:text=Microservices%20are%20an%20architectural%20and,small%2C%20self%2Dcontained%20teams. |
 | Monolithic approach | - | https://www.diva-portal.org/smash/get/diva2:1784325/FULLTEXT01.pdf |
-| Blackbox | - | View on a building block (or component) that hides the internal structure. Blackboxes respect the
-information hiding principle. They shall have clearly defined input- and output interfaces plus
-a precisely formulated responsibility or objective. Optionally a blackbox defines some quality
-attributes, for example timing behavior, throughput or security aspects.
-(from iSAQB Glossary of Software Architecture Terminology)|
+| Blackbox | - | View on a building block (or component) that hides the internal structure. Blackboxes respect the information hiding principle. They shall have clearly defined input- and output interfaces plus a precisely formulated responsibility or objective. Optionally a blackbox defines some quality attributes, for example timing behavior, throughput or security aspects.(from iSAQB Glossary of Software Architecture Terminology)|
 | Test-Driven Development | TDD | https://www.ionos.at/digitalguide/websites/web-entwicklung/was-ist-test-driven-development/ |
 | Datenschutz-Grundverordnung | DSGVO | https://www.datenschutz-grundverordnung.eu/ |
 
