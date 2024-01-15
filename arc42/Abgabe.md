@@ -917,7 +917,20 @@ Potentially more columns in case you need translations.
 See [Glossary](https://docs.arc42.org/section-12/) in the arc42
 documentation.
 
-| Term        | Definition        |
-|-------------|-------------------|
-| *\<Term-1>* | *\<definition-1>* |
-| *\<Term-2>* | *\<definition-2>* |
+| Term        | Abbreviation  | Definition        | 
+|-------------|-------------------|-------------------|
+| University Management Tool | UMT | The name of our software solution. |
+| On-Premise | - | Application is hosted on own physical servers. |
+| Moodle | - | https://moodle.com/about/ |
+| service-oriented architecture | SOA | https://www.ionos.at/digitalguide/hosting/hosting-technik/soa-record/ |
+| Representational State Transfer | REST | https://www.ionos.at/digitalguide/server/knowhow/rest-die-http-loesung-fuer-webservices/ |
+| Microservices | MS | https://aws.amazon.com/microservices/#:~:text=Microservices%20are%20an%20architectural%20and,small%2C%20self%2Dcontained%20teams. |
+| Monolithic approach | - | https://www.diva-portal.org/smash/get/diva2:1784325/FULLTEXT01.pdf |
+| Blackbox | - | View on a building block (or component) that hides the internal structure. Blackboxes respect the
+information hiding principle. They shall have clearly defined input- and output interfaces plus
+a precisely formulated responsibility or objective. Optionally a blackbox defines some quality
+attributes, for example timing behavior, throughput or security aspects.
+(from iSAQB Glossary of Software Architecture Terminology)|
+| Test-Driven Development | TDD | https://www.ionos.at/digitalguide/websites/web-entwicklung/was-ist-test-driven-development/ |
+| Datenschutz-Grundverordnung | DSGVO | https://www.datenschutz-grundverordnung.eu/ |
+
