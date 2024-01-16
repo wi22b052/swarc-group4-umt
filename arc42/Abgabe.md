@@ -515,24 +515,7 @@ Mapping of Building Blocks to Infrastructure
 
 ## Infrastructure Level 2
 
-Here you can include the internal structure of (some) infrastructure
-elements from level 1.
-
-Please copy the structure from level 1 for each selected element.
-
-### *\<Infrastructure Element 1>*
-
-*\<diagram + explanation>*
-
-### *\<Infrastructure Element 2>*
-
-*\<diagram + explanation>*
-
-…
-
-### *\<Infrastructure Element n>*
-
-*\<diagram + explanation>*
+For our project a second Infrastructure level was not needed necessarily.
 
 <div style="page-break-after: always;"></div>
 
