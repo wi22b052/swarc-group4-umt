@@ -608,12 +608,14 @@ documentation.
 
 **Development concepts**
 1. Agile
+   
    Agile is an iterative and flexible approach to software development and project    
    management. It emphasizes collaboration, adaptability, and customer satisfaction. 
    Agile methodologies, such as Scrum or Kanban, promote regular reassessment and 
    adaptation of plans based on feedback throughout the development process.
    
-2. TDD (Test Driven Development)
+3. TDD (Test Driven Development)
+   
    Test-Driven Development (TDD) is a software development method where tests are 
    written before code. The process involves creating a failing test, writing the 
    minimal code to pass the test, and then refining the code while ensuring all tests 
