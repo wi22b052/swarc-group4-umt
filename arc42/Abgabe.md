@@ -49,7 +49,7 @@ To make strategic decisions, information and data is crucial. Therefore, the uni
 
 </div>
 
-The organisation of the courses and the curriculum represent two crucial parts of day-to-day life in a university. The software needs to support the employees here and automate as much process steps as possible.
+The organisation of the courses and the curriculum represent two crucial parts of day-to-day life at a university. The software needs to support the employees here and automate as much process steps as possible.
 
 
 <div class="formalpara-title">
