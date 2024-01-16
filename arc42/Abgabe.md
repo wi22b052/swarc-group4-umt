@@ -915,3 +915,4 @@ documentation.
 | Datenschutz-Grundverordnung | DSGVO | https://www.datenschutz-grundverordnung.eu/ |
 | Node | - | https://www.dev-insider.de/was-ist-ein-node-a-885313/ |
 | Firewall | - | https://de.wikipedia.org/wiki/Firewall |
+| Agile | - | https://www.atlassian.com/de/agile |
