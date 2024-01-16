@@ -258,8 +258,6 @@ level without disclosing implementation details.
 The building block view is a hierarchical collection of black boxes and
 white boxes (see figure below) and their descriptions.
 
-![Hierarchy of building blocks](images/Baustein_level1_und_level2.png)
-
 **Level 1** is the white box description of the overall system together
 with black box descriptions of all contained building blocks.
 
