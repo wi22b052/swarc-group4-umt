@@ -502,7 +502,7 @@ adapt this section of arc42 for all relevant environments.
 
 ![Infrastructure Level 1](images/Deployment_View.png)
 
-Motivation  
+**Motivation**  
 Our idea was to build the Moodle-System around a handful of Nodes to distribute the load which can come in a system which needs to run permanently 24/7
 and has a lot of users. For one this can mean unnecessary infrastructure elements, but for a reliable and flexible system it is sufficient. In this image we considered one database as an example with the interaction of Webservice and Firewall, but there can be more than one database if needed.
 
