@@ -605,7 +605,6 @@ concepts](images/08-Crosscutting-Concepts-Structure-EN.png)
 See [Concepts](https://docs.arc42.org/section-8/) in the arc42
 documentation.
 
-## *\<Concept 1>*
 
 **Development concepts**
 1. Agile
@@ -621,7 +620,6 @@ documentation.
    still pass. TDD promotes code quality, early bug detection, and serves as 
    documentation for software behavior.
    
-## *\<Concept 2>*
 
 **Architecture and design patterns**
 1. SOA
@@ -644,7 +642,6 @@ documentation.
    Represents the user interface and user interaction.
    Displays information to users and collects input.
    
-## *\<Concept 3>*
 
 **Safety and security concepts**
 
