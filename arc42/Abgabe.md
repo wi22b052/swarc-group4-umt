@@ -625,10 +625,12 @@ documentation.
 
 **Architecture and design patterns**
 1. SOA
+   
    Service-Oriented Architecture (SOA) is a design approach that organizes software 
    into independent services communicating through defined interfaces, promoting 
    flexibility and reusability.
-2. Seperation of three layers (Database, Application, Client)
+3. Seperation of three layers (Database, Application, Client)
+   
    The separation of three layers  —  Database, Application, and Client—is a design  
    principle in software architecture.
 
