@@ -914,3 +914,4 @@ documentation.
 | Test-Driven Development | TDD | https://www.ionos.at/digitalguide/websites/web-entwicklung/was-ist-test-driven-development/ |
 | Datenschutz-Grundverordnung | DSGVO | https://www.datenschutz-grundverordnung.eu/ |
 | Node | - | https://www.dev-insider.de/was-ist-ein-node-a-885313/ |
+| Firewall | - | https://de.wikipedia.org/wiki/Firewall |
